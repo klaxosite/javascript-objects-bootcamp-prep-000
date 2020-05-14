@@ -1,4 +1,4 @@
-var playlist = { bts : "flow"}
+var playlist = { bts: "flow"}
 
 function updatePlaylist(playlist, artistName, songTitle){
   playlist[artistName] = songTitle
@@ -9,5 +9,4 @@ function updatePlaylist(playlist, artistName, songTitle){
 function removeFromPlaylist(playlist, artistName){
   delete playlist.artistName
 
-  return playlist
 }
